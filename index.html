@@ -10,8 +10,10 @@
   <h2 id="label">Waiting for input...</h2>
   <img id="output-img" src="off.png" alt="Output Image" width="200">
 
-  <!-- Load scripts in proper order -->
+  <!-- ✅ Load Teachable Machine Audio library FIRST -->
   <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/audio@0.8/dist/teachablemachine-audio.min.js"></script>
+  
+  <!-- ✅ Then load your own JavaScript logic -->
   <script src="script.js"></script>
 </body>
 </html>
